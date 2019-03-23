@@ -1,0 +1,40 @@
+header {
+  text-align: center;
+}
+
+section#photoGallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.photo-container {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+img.photo {
+  border: 1px solid black;
+  height: 100%;
+  width: auto;
+}
+
+.image-container {
+  height: 400px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4.photo-title {
+  font-size: 2rem;
+  margin: 0;
+}
